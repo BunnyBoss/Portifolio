@@ -296,8 +296,8 @@ body {
     background: repeating-linear-gradient(0deg,
             transparent,
             transparent 10px,
-            var(--color-accent-primary) 10px,
-            var(--color-accent-primary) 12px,
+            rgba(16, 185, 129, 0.4) 10px,
+            rgba(16, 185, 129, 0.4) 12px,
             transparent 12px,
             transparent 22px);
     animation: dnaFloat 20s linear infinite;
@@ -308,8 +308,8 @@ body {
     background: repeating-linear-gradient(0deg,
             transparent,
             transparent 10px,
-            var(--color-accent-secondary) 10px,
-            var(--color-accent-secondary) 12px,
+            rgba(212, 165, 116, 0.3) 10px,
+            rgba(212, 165, 116, 0.3) 12px,
             transparent 12px,
             transparent 22px);
     animation: dnaFloat 25s linear infinite reverse;
@@ -330,10 +330,10 @@ body {
     position: absolute;
     inset: 0;
     background-image:
-        radial-gradient(2px 2px at 20px 30px, var(--color-accent-primary), transparent),
-        radial-gradient(2px 2px at 40px 70px, var(--color-accent-secondary), transparent),
+        radial-gradient(2px 2px at 20px 30px, rgba(16, 185, 129, 0.6), transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(212, 165, 116, 0.5), transparent),
         radial-gradient(1px 1px at 90px 40px, var(--color-text-secondary), transparent),
-        radial-gradient(2px 2px at 130px 80px, var(--color-accent-tertiary), transparent),
+        radial-gradient(2px 2px at 130px 80px, rgba(110, 231, 183, 0.4), transparent),
         radial-gradient(1px 1px at 160px 120px, var(--color-text-secondary), transparent);
     background-size: 200px 200px;
     animation: particleFloat 30s linear infinite;
@@ -358,7 +358,7 @@ body {
     left: 10%;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(0, 212, 255, 0.15) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
     filter: blur(60px);
     animation: orbFloat 10s ease-in-out infinite;
 }
@@ -582,7 +582,7 @@ body {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 0 60px rgba(0, 212, 255, 0.4);
+    box-shadow: 0 0 60px rgba(16, 185, 129, 0.4);
 }
 
 .btn-primary:hover .btn-icon {
@@ -726,7 +726,7 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+    background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
     opacity: 0;
     transition: var(--transition-slow);
 }
