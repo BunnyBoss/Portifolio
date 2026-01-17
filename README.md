@@ -4,7 +4,7 @@
 
 Welcome to my professional portfolio repository. This website is designed to showcase my **10+ years of experience** in bioinformatics, precision medicine, and clinical genomics. It highlights my journey from an Associate Scientist to a Lead Bioinformatician, along with my key projects and research publications.
 
-## 🔗 [Live Portfolio Website](https://poornachandrag.github.io/Portifolio/)
+## 🔗 [Live Portfolio Website](https://bunnyboss.github.io/Portifolio/)
 
 ---
 
