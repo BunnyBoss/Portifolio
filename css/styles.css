@@ -729,6 +729,7 @@ body {
     background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
     opacity: 0;
     transition: var(--transition-slow);
+    pointer-events: none;
 }
 
 .about-card:hover .card-glow {
