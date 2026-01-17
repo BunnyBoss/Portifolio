@@ -1,116 +1,55 @@
-# Poornachandra G. - Portfolio Website
+# Poornachandra G. | Lead Bioinformatician
 
-A high-quality, professional portfolio website showcasing my experience as a Lead Bioinformatician specializing in Precision Medicine, NGS Pipelines, and ML/AI for Clinical Genomics.
+**Precision Medicine in Oncology • NGS Pipelines • ML/AI for Clinical Genomics**
 
-## 🌐 Live Demo
+Welcome to my professional portfolio repository. This website is designed to showcase my **10+ years of experience** in bioinformatics, precision medicine, and clinical genomics. It highlights my journey from an Associate Scientist to a Lead Bioinformatician, along with my key projects and research publications.
 
-Visit the live website: `https://<your-username>.github.io/Portifolio/`
+## 🔗 [Live Portfolio Website](https://poornachandrag.github.io/Portifolio/)
 
-## ✨ Features
+---
 
-- **Modern Dark Theme** - BioTech Elegance design with DNA-inspired aesthetics
-- **Fully Responsive** - Optimized for all screen sizes
-- **Smooth Animations** - Scroll-triggered animations and micro-interactions
-- **Fast Loading** - Pure HTML/CSS/JS, no frameworks required
-- **SEO Optimized** - Proper meta tags and semantic HTML
-- **Accessible** - Keyboard navigation and ARIA labels
+## 📂 Portfolio Overview
 
-## 📂 Project Structure
+This portfolio is organized into the following sections:
 
-```
-Portifolio/
-├── index.html           # Main single-page website
-├── css/
-│   └── styles.css       # All styles with CSS variables
-├── js/
-│   └── main.js          # Animations and interactions
-├── assets/
-│   └── images/          # Future: profile photos, project screenshots
-├── Resume_Poornachandra_G_v3.pdf  # Downloadable resume
-└── README.md            # This file
-```
+### 1. **Professional Summary**
+A snapshot of my background in building end-to-end NGS pipelines, architecting variant annotation workflows, and leading bioinformatics R&D teams.
 
-## 🚀 Deployment to GitHub Pages
+### 2. **Experience Timeline**
+A detailed career journey through my roles at **Cellworks**:
+- **Lead Bioinformatician (2024–Present)**: Leading R&D, mentoring scientists, and driving technical roadmaps.
+- **Senior Scientist & Reporting Manager (2022–2024)**: Developing high-throughput variant calling stacks and multi-omics pipelines.
+- **Senior Scientist, Bioinformatics (2018–2021)**: Benchmarking analysis pipelines and designing liquid-biopsy panels.
+- **Scientist, Clinical Translation (2017–2018)**: Curating rationale libraries and analyzing 200+ cancer cases.
+- **Associate Scientist (2015–2017)**: Harmonizing multi-omics data for >500 cases.
 
-### Option 1: Deploy from Main Branch
+### 3. **Core Competencies**
+My technical expertise spans:
+- **Clinical Genomics**: WGS/WES, Variant Interpretation (ACMG/AMP), Carrier Screening.
+- **Bioinformatics Tools**: Kallisto, Salmon, GATK, Seurat, Scanpy.
+- **Cloud & DevOps**: AWS (HealthOmics, Batch), Docker, Nextflow, Git.
+- **ML / AI**: LLMs, RAG, Scikit-learn, PyTorch, Multi-agent systems.
 
-1. **Push code to GitHub**
-   ```bash
-   git add .
-   git commit -m "Add portfolio website"
-   git push origin main
-   ```
+### 4. **Selected AI Projects**
+Showcasing my work in applying AI to bioinformatics:
+- **Evaline**: Interactive chatbot with RAG for treatment recommendations.
+- **PathoParse**: Extracting clinical metadata from pathology reports.
+- **SQL Chat**: NL2SQL tool for clinical queries.
+- **VarEffex**: Mining literature for variant-function associations.
 
-2. **Enable GitHub Pages**
-   - Go to your repository on GitHub
-   - Navigate to **Settings** → **Pages**
-   - Under "Source", select **Deploy from a branch**
-   - Choose **main** branch and **/ (root)** folder
-   - Click **Save**
+### 5. **Publications**
+A collection of my research contributions in journals like *Neuro-Oncology*, *Journal of Clinical Oncology*, and *Blood*.
 
-3. **Access your site**
-   - Your site will be available at `https://<username>.github.io/Portifolio/`
-   - It may take a few minutes for the first deployment
+---
 
-### Option 2: Using GitHub Actions (Recommended)
+## 📬 Contact Information
 
-Create `.github/workflows/deploy.yml` for automatic deployments.
+I am always open to discussing new opportunities, collaborations, or connecting with fellow professionals in the field.
 
-## 🛠️ Local Development
-
-### Using Python HTTP Server
-```bash
-cd Portifolio
-python -m http.server 8080
-# Open http://localhost:8080 in your browser
-```
-
-### Using Node.js
-```bash
-npx serve .
-# Open the provided URL in your browser
-```
-
-### Using VS Code Live Server
-1. Install the "Live Server" extension
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
-
-## 🎨 Customization
-
-### Colors
-Edit CSS custom properties in `css/styles.css`:
-```css
-:root {
-    --color-accent-primary: #00d4ff;    /* Cyan accent */
-    --color-accent-secondary: #7c3aed;  /* Purple accent */
-    --color-accent-tertiary: #ec4899;   /* Pink accent */
-}
-```
-
-### Content
-Update the following sections in `index.html`:
-- Hero section with your name and tagline
-- About section with your summary
-- Experience timeline with your career history
-- Skills section with your competencies
-- Projects section with your work
-- Publications section with your papers
-- Contact section with your details
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📄 License
-
-© 2024 Poornachandra G. All rights reserved.
-
-## 📬 Contact
-
-- **Email**: poornachandra.gedi@gmail.com
+- **Email**: [poornachandra.gedi@gmail.com](mailto:poornachandra.gedi@gmail.com)
 - **LinkedIn**: [linkedin.com/in/poornachandra-g](https://linkedin.com/in/poornachandra-g)
 - **ORCID**: [0009-0009-1610-1205](https://orcid.org/0009-0009-1610-1205)
+
+---
+
+> *This website was built with a custom "BioTech Elegance" theme, featuring a responsive dark mode design, DNA-inspired animations, and a focus on professional presentation.*
